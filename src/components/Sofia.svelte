@@ -14,9 +14,7 @@
 		<p class="Sofia">{Contatti}</p>
 	</div>
 
-	<div class="Sofia_foto">
-		<img class="Sofia" src={image} alt="copertina" />
-	</div>
+	<img class="Sofia_Image" src={image} alt="copertina" />
 
 	<div class="Sofia_Centro">
 		<p class="Sofia">{Ciao}</p>
@@ -36,9 +34,5 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-	}
-
-	.Sofia_foto {
-		aspect-ratio: 1/1;
 	}
 </style>
