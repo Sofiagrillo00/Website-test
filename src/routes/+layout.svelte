@@ -1,8 +1,9 @@
 <script lang="ts">
-	import Navbar from '$components/Navbar.svelte';
 	import '../styles.css';
 </script>
 
-<Navbar />
+<svelte:head>
+	<link rel="stylesheet" href="https://unpkg.com/tailwindcss@3.4.1/src/css/preflight.css" />
+</svelte:head>
 
 <slot />
