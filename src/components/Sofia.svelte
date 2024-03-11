@@ -3,6 +3,7 @@
 	export let Progetti;
 	export let Contatti;
 	export let Ciao;
+	export let WorkExperienceTitle;
 
 	export let image;
 </script>
@@ -14,10 +15,13 @@
 		<p class="Sofia">{Contatti}</p>
 	</div>
 
-	<img class="Sofia_Image" src={image} alt="copertina" />
-
 	<div class="Sofia_Centro">
-		<p class="Sofia">{Ciao}</p>
+		<img class="Sofia_Image" src={image} alt="copertina" />
+		<div>
+			<p class="Sofia">{Ciao}</p>
+			<p class="Sofia_Title">{WorkExperienceTitle}</p>
+			<p class="Sofia">{Ciao}</p>
+		</div>
 	</div>
 </div>
 
@@ -32,7 +36,22 @@
 	.Sofia_Topbar {
 		font-size: 25 px;
 		display: flex;
+		font-weight: bold;
 		flex-direction: row;
 		justify-content: space-between;
+	}
+
+	.Sofia_Image {
+		border-radius: 1000px;
+		max-height: 600px;
+	}
+
+	.Sofia_Centro {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.Sofia_Title {
+		font-weight: bold;
 	}
 </style>
