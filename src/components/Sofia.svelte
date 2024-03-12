@@ -79,6 +79,8 @@
 		font-weight: bold;
 		flex-direction: row;
 		justify-content: space-between;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 
 	.Sofia_Image {
@@ -114,6 +116,6 @@
 
 	.Sofia_Info {
 		line-height: 20px;
-		font-family: serif;
+		font-style: italic;
 	}
 </style>
